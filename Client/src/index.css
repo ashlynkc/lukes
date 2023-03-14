@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    /* Styling for all  list items, so you don't have to go in and add className = p-4
+    to every single li tag. */
+    li {
+        
+        @apply p-4 text-gray-200
+
+    }
+
+    button {
+
+        @apply text-gray-200 border bg-blue-900 border-blue-900
+
+        hover:bg-transparent hover:text-blue-900 rounded-md
+        
+        /* rounded-md is ~6 px. */
+
+    }
+
+    p, h1 {
+
+        @apply text-gray-200
+
+    }
+
+}
