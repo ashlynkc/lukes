@@ -2,6 +2,9 @@
   "name": "lukes",
   "homepage": "https://www.lukegraham.co",
   "version": "0.1.0",
+  "repository": {
+    "url": "git+https://github.com/ashlynkc/lukes.git"
+  },
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.16",
