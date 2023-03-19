@@ -39,7 +39,7 @@ const Navbar = () => {
             md-hidden hides anything under the medium width (768 px).
             we also toggle onClick the handleClick operation from above
             */}
-            <div className = 'md-hidden text-gray-200 mr-4' onClick = {handleClick}> 
+            <div className = 'md:invisible text-gray-200 mr-4' onClick = {handleClick}> 
 
               {/* Simple ternary operator. Show the dropdown, on click make it x. */}
               {!nav ? <Bars3Icon className = 'w-5 btn-ghost rounded-btn'/> : <XMarkIcon className = 'w-5 flex-wrap relative z-2 btn-ghost rounded-btn' /> }
